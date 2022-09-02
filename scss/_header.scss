@@ -1,0 +1,28 @@
+.sizeIndex {
+    height: 36rem;
+}
+.backgroundSeccion {
+    background-image: url(../img/auto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    h1 {
+        font-size: 40px;
+        color: white;
+        text-transform: uppercase;
+    }
+    p {
+        font-size: 17px;
+        color: white;
+    }
+}
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.backTexto {
+    background-color: rgba(0, 0, 0, 0.438);
+    border-radius: 10px;
+}
+.padding-header {
+    padding: 1rem !important;
+}
