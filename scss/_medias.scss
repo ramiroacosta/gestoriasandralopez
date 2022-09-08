@@ -1,0 +1,12 @@
+@media screen and (max-width: 742px) {
+    .fotoSobremi {
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 455px) {
+    .fotoSobremi img {
+        width: 350px;
+    }
+}

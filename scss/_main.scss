@@ -1,0 +1,24 @@
+.fotoSobremi {
+    padding: 30px;
+    img {
+        height: 300px;
+        width: 450px;
+    }
+}
+
+.textoSobremi {
+    padding: 30px;
+    padding-right: 0;
+    h2 {
+        color: #fe5b56;
+    }
+    p {
+        font-family: 'Lato', sans-serif;
+        font-size: larger;
+        font-weight: 900;
+        span {
+            color: black;
+            font-weight: bold;
+        }
+    }
+}

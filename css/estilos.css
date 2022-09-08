@@ -4,7 +4,7 @@
   box-sizing: border-box; }
 
 .sizeIndex {
-  height: 36rem; }
+  height: 42rem; }
 
 .backgroundSeccion {
   background-image: url(../img/auto.png);
@@ -28,3 +28,32 @@
 
 .padding-header {
   padding: 1rem !important; }
+
+.fotoSobremi {
+  padding: 30px; }
+  .fotoSobremi img {
+    height: 300px;
+    width: 450px; }
+
+.textoSobremi {
+  padding: 30px;
+  padding-right: 0; }
+  .textoSobremi h2 {
+    color: #fe5b56; }
+  .textoSobremi p {
+    font-family: 'Lato', sans-serif;
+    font-size: larger;
+    font-weight: 900; }
+    .textoSobremi p span {
+      color: black;
+      font-weight: bold; }
+
+@media screen and (max-width: 742px) {
+  .fotoSobremi {
+    display: flex;
+    justify-items: center;
+    justify-content: center; } }
+
+@media screen and (max-width: 455px) {
+  .fotoSobremi img {
+    width: 350px; } }
