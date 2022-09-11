@@ -6,8 +6,27 @@
 .sizeIndex {
   height: 42rem; }
 
+.row {
+  --bs-gutter-x: 0; }
+
+.contenedorVideo {
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden; }
+  .contenedorVideo video {
+    height: fit-content;
+    width: 100vh;
+    min-height: 400px;
+    min-width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -100; }
+
 .backgroundSeccion {
-  background-image: url(../img/auto.png);
   background-size: cover;
   background-repeat: no-repeat; }
   .backgroundSeccion h1 {
@@ -58,11 +77,14 @@
   .fotoSobremi {
     display: flex;
     justify-items: center;
-    justify-content: center; } }
+    justify-content: center;
+    padding-top: 0; }
+  .textoSobremi {
+    padding-left: 0; } }
 
 @media screen and (max-width: 455px) {
   .fotoSobremi img {
-    width: 350px; } }
+    width: 325px; } }
 
 .footer {
   height: 30rem; }
