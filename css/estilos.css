@@ -6,6 +6,11 @@
 .sizeIndex {
   height: 42rem; }
 
+.nav-link {
+  border-bottom: 2px solid #fe5b56;
+  margin-right: 5px;
+  font-weight: 600; }
+
 .row {
   --bs-gutter-x: 0; }
 
@@ -46,13 +51,25 @@
   border-radius: 10px; }
 
 .padding-header {
-  padding: 1rem !important; }
+  padding: 1rem !important;
+  box-shadow: 6px 8px 41px -5px rgba(0, 0, 0, 0.93);
+  -webkit-box-shadow: 6px 8px 41px -5px rgba(0, 0, 0, 0.93);
+  -moz-box-shadow: 6px 8px 41px -5px rgba(0, 0, 0, 0.93); }
+  .padding-header h1 {
+    color: #fe5b56; }
+
+.estilosFlecha img:hover {
+  width: 70px;
+  height: 70px; }
 
 .fotoSobremi {
   padding: 30px 0 30px 1px; }
   .fotoSobremi img {
     height: 300px;
-    width: 450px; }
+    width: 450px;
+    box-shadow: 6px 6px 29px 2px rgba(0, 0, 0, 0.26);
+    -webkit-box-shadow: 6px 6px 29px 2px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 6px 6px 29px 2px rgba(0, 0, 0, 0.26); }
 
 .textoSobremi {
   padding: 30px 0 30px 40px; }
@@ -65,13 +82,24 @@
     .textoSobremi p span {
       color: black;
       font-weight: bold; }
+  .textoSobremi .estilosBoton {
+    box-shadow: 10px 5px 29px -6px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 10px 5px 29px -6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 10px 5px 29px -6px rgba(0, 0, 0, 0.5); }
 
 .tituloServicos {
   color: #fe5b56; }
 
 .cartas {
   margin-top: 3rem;
-  height: 25rem; }
+  height: 100%; }
+
+.card-title {
+  color: #fe5b56; }
+
+.btn a {
+  text-decoration: none;
+  color: red; }
 
 @media screen and (max-width: 742px) {
   .fotoSobremi {
@@ -87,4 +115,13 @@
     width: 325px; } }
 
 .footer {
-  height: 30rem; }
+  margin-top: 10rem;
+  height: 100%;
+  background-color: black; }
+
+.estilosFooter {
+  margin-top: 7rem; }
+
+.letrasFooter {
+  color: white;
+  padding: 50px 20px 10px 20px; }

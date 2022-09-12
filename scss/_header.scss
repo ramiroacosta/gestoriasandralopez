@@ -1,6 +1,11 @@
 .sizeIndex {
     height: 42rem;
 }
+.nav-link {
+    border-bottom: 2px solid #fe5b56;
+    margin-right: 5px;
+    font-weight: 600;
+}
 .row {
     --bs-gutter-x: 0;
 }
@@ -48,4 +53,18 @@
 }
 .padding-header {
     padding: 1rem !important;
+    box-shadow: 6px 8px 41px -5px rgba(0,0,0,0.93);
+    -webkit-box-shadow: 6px 8px 41px -5px rgba(0,0,0,0.93);
+    -moz-box-shadow: 6px 8px 41px -5px rgba(0,0,0,0.93);
+    h1 {
+        color: #fe5b56;
+    }
+    
+}
+.estilosFlecha {
+    img:hover {
+        width: 70px;
+        height: 70px;
+    }
+    
 }
