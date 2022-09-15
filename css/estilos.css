@@ -73,7 +73,7 @@
 
 .textoSobremi {
   padding: 30px 0 30px 40px;
-  margin-right: 1rem; }
+  padding-right: 1rem; }
   .textoSobremi h2 {
     color: #fe5b56; }
   .textoSobremi p {
@@ -104,6 +104,20 @@
   text-decoration: none;
   color: red; }
 
+.btn a:hover {
+  color: white; }
+
+.estilosBody {
+  background-color: black; }
+
+.estilosCard {
+  margin-top: 2rem; }
+
+.estilosOpiniones {
+  margin-top: 2rem; }
+  .estilosOpiniones p {
+    color: #fe5b56; }
+
 @media screen and (max-width: 742px) {
   .fotoSobremi {
     display: flex;
@@ -116,7 +130,10 @@
 
 @media screen and (max-width: 455px) {
   .fotoSobremi img {
-    width: 325px; } }
+    width: 300px;
+    height: 280px; }
+  .footer {
+    margin-top: 0 !important; } }
 
 .footer {
   margin-top: 10rem;
@@ -129,3 +146,6 @@
 .letrasFooter {
   color: white;
   padding: 50px 20px 10px 20px; }
+  .letrasFooter a {
+    text-decoration: none;
+    color: #fe5b56; }
