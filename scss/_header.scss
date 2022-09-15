@@ -30,7 +30,6 @@
     }
 }
 .backgroundSeccion {
-    // background-clip: url(../img/pexels-tima-miroshnichenko-5717289.mp4);
     background-size: cover;
     background-repeat: no-repeat;
     h1 {
@@ -57,7 +56,10 @@
     -webkit-box-shadow: 6px 8px 41px -5px rgba(0,0,0,0.93);
     -moz-box-shadow: 6px 8px 41px -5px rgba(0,0,0,0.93);
     h1 {
-        color: #fe5b56;
+        color: black;
+        span {
+            color: #fe5b56;
+        }
     }
     
 }

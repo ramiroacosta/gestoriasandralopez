@@ -56,7 +56,9 @@
   -webkit-box-shadow: 6px 8px 41px -5px rgba(0, 0, 0, 0.93);
   -moz-box-shadow: 6px 8px 41px -5px rgba(0, 0, 0, 0.93); }
   .padding-header h1 {
-    color: #fe5b56; }
+    color: black; }
+    .padding-header h1 span {
+      color: #fe5b56; }
 
 .estilosFlecha img:hover {
   width: 70px;
@@ -87,6 +89,8 @@
     box-shadow: 10px 5px 29px -6px rgba(0, 0, 0, 0.5);
     -webkit-box-shadow: 10px 5px 29px -6px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 10px 5px 29px -6px rgba(0, 0, 0, 0.5); }
+  .textoSobremi .colorSpan {
+    color: #fe5b56; }
 
 .tituloServicos {
   color: #fe5b56; }
@@ -149,3 +153,6 @@
   .letrasFooter a {
     text-decoration: none;
     color: #fe5b56; }
+
+.card-header p {
+  color: #fe5b56; }
